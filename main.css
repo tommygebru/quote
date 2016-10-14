@@ -2,25 +2,25 @@
       containers
 ***************************/
 
-*{font-family: 'Nova Mono', monospace !important; letter-spacing:2px; box-sizing:border-box; text-align:center;}
+*{font-family: 'Nova Round', cursive !important; letter-spacing:2px; box-sizing:border-box; text-align:center;}
 strong{font-weight:bold;}
 em{font-weight:italic;}
 
-.container{display:flex; align-items:center; flex-direction:row; justify-content:center;
-background:url('http://i1194.photobucket.com/albums/aa363/gebrut/minirickverse_zpscwpi0br8.jpg'); background-repeat:no-repeat; background-size:cover; min-height:100vh;
+.container{display:flex; align-items:center; flex-direction:row; justify-content:space-around;
+background:url('https://65.media.tumblr.com/58744fc0f879af07c8c28c598609e9ef/tumblr_of1t8mm5Z81sj6gx1o1_1280.png') center center; background-repeat:no-repeat; background-size:cover; min-height:100vh;
 }/*inner-container*/
 
 .secondary{display:flex; flex-direction:column; align-items:center; justify-content:center; padding:50px 0; margin-right:15px;}/*right-column*/
 .primary{ text-align:center;  color:white; display:flex;  justify-content:center; align-items:center; font-size:6vw; padding:30px 0;}/*quote*/
 
-.quote{text-shadow:5px 5px 5px black;
-transition:2s;}
+.quote{text-shadow:5px 5px 5px #002b56;
+transition:2s; padding:15px;}
 /***************************
       fan art link
 ***************************/
 .fanart{background-color:rgba(0,0,0,.3); border-radius:5px; height:45px; font-size:1.25em; width:200px; margin-top:20px; display:flex; justify-content:center; text-align:center;}
-.fanart a{color:#FBA598; text-shadow:.1px 2px black; text-decoration:none;}
-.fanart:hover{color:#FEAC87; text-shadow:.1px 2px black; font-size:1.2em;}
+.fanart a{color:#67CEB1; text-shadow:.1px 2px black; text-decoration:none;}
+.fanart:hover{text-shadow:.1px 2px black; font-size:1.2em;}
 /***************************
           twitter
 ***************************/
@@ -36,10 +36,10 @@ transition:2s;}
 /***************************
       learn more
 ***************************/
-.learn-more{width:220px; text-shadow:1px 1px black; color:white;}
-.learn-more a{color:#FBA598; font-size:1.3em; font-family: 'Rubik Mono One', sans-serif !important; text-decoration:none; text-shadow:2.5px 2.5px black;}
-.learn-more a:hover{color:#FEAC87; text-shadow:2.5px 2.5px black;}
-.wiki{margin:20px 0; border-bottom:dotted #FBA598 1px; text-align:center;}
+.learn-more{width:220px; text-shadow:1px 1px navy; color:white; background-color:rgba(0,0,0,.3); border-radius:5px;  padding:5px; line-height:19px;}
+.learn-more a{color:#67CEB1; font-size:1.3em; text-decoration:none; text-shadow:2.5px 2.5px black;}
+.learn-more a:hover{text-shadow:2.5px 2.5px black;}
+.wiki{margin:20px 0; border-bottom:dotted #67CEB1 1px; text-align:center;}
 /***************************
       media query
 ***************************/
